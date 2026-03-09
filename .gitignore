@@ -203,4 +203,8 @@ pyrightconfig.json
 .history
 .ionide
 
+# Ignore pipeline outputs and derived data
+/data/cleaned_data.csv
+/reports/*.csv
+
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,jupyternotebooks
